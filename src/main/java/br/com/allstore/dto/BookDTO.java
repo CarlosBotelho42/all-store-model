@@ -5,6 +5,8 @@ import jakarta.validation.constraints.NotNull;
 
 public record BookDTO(
 
+        Long id,
+
         @NotBlank
         String name,
 
